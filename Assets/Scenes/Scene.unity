@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.4367139, g: 0.48431712, b: 0.5645691, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -193,7 +193,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 93021964}
   m_LocalRotation: {x: -0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.00082884374, y: -0.009, z: 0.27766266}
+  m_LocalPosition: {x: -0.001, y: 0.011, z: 0.27766266}
   m_LocalScale: {x: -0.040449217, y: -0.27949995, z: -0.040449195}
   m_Children: []
   m_Father: {fileID: 2049895549}
@@ -635,7 +635,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.36
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -667,13 +667,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1073524724}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.6705482, y: -0.18629268, z: 0.17967281, w: 0.69525385}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 87.928, y: -30.000002, z: 0}
 --- !u!1 &1210011226
 GameObject:
   m_ObjectHideFlags: 0
@@ -1091,7 +1091,7 @@ Prefab:
     - target: {fileID: 114605197755624436, guid: 3fdb7748d018f6a43b13dd13071fb02d,
         type: 2}
       propertyPath: m_Text
-      value: ON/OFF
+      value: ON
       objectReference: {fileID: 0}
     - target: {fileID: 224606694852852258, guid: 3fdb7748d018f6a43b13dd13071fb02d,
         type: 2}
@@ -1120,7 +1120,22 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1193126674011240, guid: 3fdb7748d018f6a43b13dd13071fb02d, type: 2}
       propertyPath: m_Name
-      value: Button_Display
+      value: ButtonDisplay
+      objectReference: {fileID: 0}
+    - target: {fileID: 114714070917918380, guid: 3fdb7748d018f6a43b13dd13071fb02d,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0.5019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 114714070917918380, guid: 3fdb7748d018f6a43b13dd13071fb02d,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.56078434
+      objectReference: {fileID: 0}
+    - target: {fileID: 114714070917918380, guid: 3fdb7748d018f6a43b13dd13071fb02d,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.5529412
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3fdb7748d018f6a43b13dd13071fb02d, type: 2}
