@@ -2,6 +2,9 @@
 
 Simple IoT control from Augmented Reality virtual button.
 
+![AR Button](AR_Button.gif)
+
+
 # Installation & Testing
 
 - Setup Unity 3D  + Vuforia SDK
