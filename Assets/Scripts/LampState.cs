@@ -21,12 +21,19 @@ public class LampState : MonoBehaviour
         gameObject.GetComponent<Renderer>().material = change_Material;
 
         string json = "{\"status\":\"true\"}";
-		
-        StartCoroutine(RESTClient.LampState(json));
+        ChangeState(json);
     }
 
     public void ChangeColorOFF()
     {
         gameObject.GetComponent<Renderer>().material = default_Material;
+
+        string json = "{\"status\":\"false\"}";
+        ChangeState(json);
+    }
+
+    void ChangeState(string json)
+    {
+        StartCoroutine(RESTClient.LampState(json));
     }
 }
