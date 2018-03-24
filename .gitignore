@@ -37,4 +37,5 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
+*.log
 .vscode

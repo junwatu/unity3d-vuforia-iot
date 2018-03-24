@@ -263,7 +263,9 @@ PlayerSettings:
     m_Devices:
     - Oculus
     - OpenVR
-  m_BuildTargetEnableVuforiaSettings: []
+  m_BuildTargetEnableVuforiaSettings:
+  - m_BuildTarget: Standalone
+    m_Enabled: 1
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   m_TemplateCustomTags: {}
@@ -557,7 +559,8 @@ PlayerSettings:
   allowUnsafeCode: 0
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 0
-  apiCompatibilityLevelPerPlatform: {}
+  apiCompatibilityLevelPerPlatform:
+    Standalone: 2
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: Template_3D

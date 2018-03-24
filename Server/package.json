@@ -1,0 +1,14 @@
+{
+  "name": "unity-ar-rest-server",
+  "version": "1.0.0",
+  "description": "REST server for Unity 3D AR ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Equan Pr.",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
