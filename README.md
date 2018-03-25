@@ -6,7 +6,7 @@ This is sample code for my article on [Medium](https://medium.com/pemrograman/au
 
 
 
-# Installation & Testing
+## Installation & Testing
 
 - Setup Unity 3D  + Vuforia SDK
 - Clone this repo
@@ -16,3 +16,7 @@ This is sample code for my article on [Medium](https://medium.com/pemrograman/au
 - Prepare Image Marker (Fissure by default) & Webcam
 - Hit Play on Unity 3D
 - Have fun!
+
+## License
+
+MIT
